@@ -1,0 +1,32 @@
+.Card {
+  background-color: #108700;
+  height: 100px;
+  width: 130px;
+  border-radius: 7px; /* CSS Rounded (card) Corners */
+  margin: 10px;       /* adds space between cards */
+  float: left;        /* cards arrange left to right */
+  font-size: 1.5em;
+  padding-top: 50px;  /* pushes content down towards the center */
+/* transition: transform 0.8s; */
+}
+
+
+.Card.up {
+  background-color: #ADDE0B;
+  /* transform: rotateY(180deg); */
+}
+
+
+/* 
+  Flip effect (transition & transform):
+   https://www.w3schools.com/howto/howto_css_flip_card.asp 
+   
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+*/
+
+
+
+/* https://www.youtube.com/watch?v=OV8MVmtgmoY */
+/* transition: preserve-3d; */
+
